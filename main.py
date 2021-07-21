@@ -45,7 +45,7 @@ subMenu.add_command(label="Exit", command=root.destroy)
 
 
 def about_us():
-    tkinter.messagebox.showinfo('About Tune.in', 'This is a music player build using Python Tkinter named on Tune.in SWIFT')
+    tkinter.messagebox.showinfo('About Tune.in', 'This is a music player build using Python Tkinter')
 
 subMenu = Menu(menubar, tearoff=0)
 menubar.add_cascade(label="Help", menu=subMenu)
